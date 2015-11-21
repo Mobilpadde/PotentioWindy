@@ -27,7 +27,7 @@ class Arrow{
     rotate(atan2(location.x, location.y));
     ellipse(location.x, location.y, 10, 10);
     triangle(location.x - -5, location.y + 0, location.x - 5, location.y + 0, location.x - 0, location.y - 10);
-    triangle(0, -width / 2 + width / 64, 10, -width / 2 + width / 64, width / 128, -width / 2);
+    triangle(0, -width / 2 + width / 64, 10, -width / 2 + width / 64, 5, -width / 2);
     popMatrix();
     
     PVector fakeWind = wind.copy();

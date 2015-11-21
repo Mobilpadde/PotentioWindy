@@ -40,5 +40,4 @@ void draw(){
   }
   
   wind.Draw();
-  saveFrame("/Users/MCordes/Desktop/Windy/#######.tif");
 }
